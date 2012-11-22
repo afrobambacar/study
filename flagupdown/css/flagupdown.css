@@ -1,0 +1,38 @@
+.flag {
+	position: absolute;
+	top: 30%;
+	width: 100%;
+}
+.flag div {
+	width: 80px;
+	height: 80px;
+	border: 1px solid #ccc;
+	margin: 30px;
+}
+.flag .blue {
+	float: left;
+	background: blue;
+}
+.flag .white {
+	float: right;
+	background: white;
+}
+
+.btn {
+	position: absolute;
+	bottom: 5%;
+	width: 100%;
+}
+.btn button {
+	width: 80px;
+	height: 80px;
+	background: #ccc;
+	border-radius: 4px;
+	margin: 30px;
+}
+.btn .btn_blue {
+	float: left;
+}
+.btn .btn_white {
+	float: right;
+}
